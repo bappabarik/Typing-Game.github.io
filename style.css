@@ -1,0 +1,116 @@
+.highlight {
+  background-color: yellow;
+}
+
+.error {
+  background-color: lightcoral;
+  border: red;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(201, 196, 196);
+  margin: 10%;
+}
+
+p {
+  color: rgb(74, 74, 74);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 3%;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+}
+
+b {
+    color: red;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+input {
+  outline: none;
+  caret-color: white;
+  border-radius: 8px;
+  border: 1px solid gray;
+  height: 30px;
+  padding-left: 10px;
+  background-color: transparent;
+  margin: 10px;
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid gray;
+  height: 32px;
+  background-color: transparent;
+  color: black;
+  width: 80px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+  overflow: hidden;
+  border-right: 0.10em solid rgb(0, 0, 0);
+  white-space: nowrap;
+  margin: 20px auto;
+  animation: typing 2s steps(12), blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 16%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(0, 0, 0);
+  }
+}
+
+.typewriter {
+  background-color: rgb(81, 80, 80);
+  color: rgb(203, 203, 203);
+  width: fit-content;
+  margin: 30px auto;
+  padding: 15px;
+  border-radius: 20px;
+  line-height: 30px;
+  box-shadow: gray 1px 2px 7px 1px;
+}
+
+#quote {
+  margin: 50px auto;
+}
+
+#message {
+    color: green;
+    /* border: 1px solid gray; */
+    height: 60px;
+    /* width: 200px; */
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
